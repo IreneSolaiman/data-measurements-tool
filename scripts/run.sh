@@ -110,3 +110,11 @@ python3 run_data_measurements.py --dataset="squad_v2" --config="squad_v2" --spli
 python3 run_data_measurements.py --dataset="squad_v2" --config="squad_v2" --split="validation" --feature="context"
 python3 run_data_measurements.py --dataset="squad_v2" --config="squad_v2" --split="validation" --feature="question"
 python3 run_data_measurements.py --dataset="squad_v2" --config="squad_v2" --split="validation" --feature="title"
+
+
+python3 run_data_measurements.py --dataset="web_questions" --config="default" --split="train" --feature="url"
+python3 run_data_measurements.py --dataset="web_questions" --config="default" --split="train" --feature="question"
+python3 run_data_measurements.py --dataset="web_questions" --config="default" --split="train" --feature="answers"
+python3 run_data_measurements.py --dataset="web_questions" --config="default" --split="test" --feature="url"
+python3 run_data_measurements.py --dataset="web_questions" --config="default" --split="test" --feature="question"
+python3 run_data_measurements.py --dataset="web_questions" --config="default" --split="test" --feature="answers"
